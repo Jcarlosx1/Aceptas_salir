@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+    position: relative;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+#yesBtn {
+    background-color: #00c9a7;
+}
+
+#noBtn {
+    background-color: #ff6b6b;
+    position: absolute;
+}
