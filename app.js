@@ -116,10 +116,10 @@ yesBtn.addEventListener("click", () => {
     noBtn.style.display = "none";
 
     // Mostrar mensaje centrado
-    message.textContent = "😏 ¿Ves lo fácil que era?";
+    message.textContent = "😏 ¿Ves lo fácil que era? Sabia que te morias de ganas";
     message.style.fontSize = "40px";
     message.style.position = "fixed";
-    message.style.top = "50%";
+    message.style.top = "70%";
     message.style.left = "50%";
     message.style.transform = "translate(-50%, -50%)";
 });
